@@ -1,15 +1,15 @@
 //
 //  ContentView.swift
-//  beam-mobile
+//  mobile
 //
-//  Created by Andrew Nijmeh on 2022-05-29.
+//  Created by Andrew Nijmeh on 2022-06-02.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Beam")
+        Text("Hello, world!")
             .padding()
     }
 }

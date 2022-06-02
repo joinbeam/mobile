@@ -1,14 +1,14 @@
 //
-//  beam_mobileApp.swift
-//  beam-mobile
+//  mobileApp.swift
+//  mobile
 //
-//  Created by Andrew Nijmeh on 2022-05-29.
+//  Created by Andrew Nijmeh on 2022-06-02.
 //
 
 import SwiftUI
 
 @main
-struct beam_mobileApp: App {
+struct mobileApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

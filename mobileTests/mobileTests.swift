@@ -1,14 +1,14 @@
 //
-//  beam_mobileTests.swift
-//  beam-mobileTests
+//  mobileTests.swift
+//  mobileTests
 //
-//  Created by Andrew Nijmeh on 2022-05-29.
+//  Created by Andrew Nijmeh on 2022-06-02.
 //
 
 import XCTest
-@testable import beam_mobile
+@testable import mobile
 
-class beam_mobileTests: XCTestCase {
+class mobileTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

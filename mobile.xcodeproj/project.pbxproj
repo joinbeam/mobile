@@ -7,55 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		499C361C2843F516005AABA5 /* beam_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C361B2843F516005AABA5 /* beam_mobileApp.swift */; };
-		499C361E2843F516005AABA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C361D2843F516005AABA5 /* ContentView.swift */; };
-		499C36202843F519005AABA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C361F2843F519005AABA5 /* Assets.xcassets */; };
-		499C36232843F519005AABA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C36222843F519005AABA5 /* Preview Assets.xcassets */; };
+		4978FB322849798D000976E5 /* mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB312849798D000976E5 /* mobileApp.swift */; };
+		4978FB342849798D000976E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB332849798D000976E5 /* ContentView.swift */; };
+		4978FB362849798E000976E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4978FB352849798E000976E5 /* Assets.xcassets */; };
+		4978FB392849798E000976E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4978FB382849798E000976E5 /* Preview Assets.xcassets */; };
+		4978FB432849798E000976E5 /* mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB422849798E000976E5 /* mobileTests.swift */; };
+		4978FB4D2849798E000976E5 /* mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB4C2849798E000976E5 /* mobileUITests.swift */; };
+		4978FB4F2849798E000976E5 /* mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB4E2849798E000976E5 /* mobileUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		499C36292843F519005AABA5 /* PBXContainerItemProxy */ = {
+		4978FB3F2849798E000976E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 499C36102843F516005AABA5 /* Project object */;
+			containerPortal = 4978FB262849798D000976E5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 499C36172843F516005AABA5;
-			remoteInfo = "beam-mobile";
+			remoteGlobalIDString = 4978FB2D2849798D000976E5;
+			remoteInfo = mobile;
 		};
-		499C36332843F519005AABA5 /* PBXContainerItemProxy */ = {
+		4978FB492849798E000976E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 499C36102843F516005AABA5 /* Project object */;
+			containerPortal = 4978FB262849798D000976E5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 499C36172843F516005AABA5;
-			remoteInfo = "beam-mobile";
+			remoteGlobalIDString = 4978FB2D2849798D000976E5;
+			remoteInfo = mobile;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		499C36182843F516005AABA5 /* beam-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beam-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		499C361B2843F516005AABA5 /* beam_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beam_mobileApp.swift; sourceTree = "<group>"; };
-		499C361D2843F516005AABA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		499C361F2843F519005AABA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		499C36222843F519005AABA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		499C36282843F519005AABA5 /* beam-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beam-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		499C36322843F519005AABA5 /* beam-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beam-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978FB2E2849798D000976E5 /* mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978FB312849798D000976E5 /* mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileApp.swift; sourceTree = "<group>"; };
+		4978FB332849798D000976E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4978FB352849798E000976E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4978FB382849798E000976E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4978FB3E2849798E000976E5 /* mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978FB422849798E000976E5 /* mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileTests.swift; sourceTree = "<group>"; };
+		4978FB482849798E000976E5 /* mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978FB4C2849798E000976E5 /* mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileUITests.swift; sourceTree = "<group>"; };
+		4978FB4E2849798E000976E5 /* mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		499C36152843F516005AABA5 /* Frameworks */ = {
+		4978FB2B2849798D000976E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		499C36252843F519005AABA5 /* Frameworks */ = {
+		4978FB3B2849798E000976E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		499C362F2843F519005AABA5 /* Frameworks */ = {
+		4978FB452849798E000976E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,123 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		499C360F2843F516005AABA5 = {
+		4978FB252849798D000976E5 = {
 			isa = PBXGroup;
 			children = (
-				499C361A2843F516005AABA5 /* beam-mobile */,
-				499C36192843F516005AABA5 /* Products */,
+				4978FB302849798D000976E5 /* mobile */,
+				4978FB412849798E000976E5 /* mobileTests */,
+				4978FB4B2849798E000976E5 /* mobileUITests */,
+				4978FB2F2849798D000976E5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		499C36192843F516005AABA5 /* Products */ = {
+		4978FB2F2849798D000976E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				499C36182843F516005AABA5 /* beam-mobile.app */,
-				499C36282843F519005AABA5 /* beam-mobileTests.xctest */,
-				499C36322843F519005AABA5 /* beam-mobileUITests.xctest */,
+				4978FB2E2849798D000976E5 /* mobile.app */,
+				4978FB3E2849798E000976E5 /* mobileTests.xctest */,
+				4978FB482849798E000976E5 /* mobileUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		499C361A2843F516005AABA5 /* beam-mobile */ = {
+		4978FB302849798D000976E5 /* mobile */ = {
 			isa = PBXGroup;
 			children = (
-				499C361B2843F516005AABA5 /* beam_mobileApp.swift */,
-				499C361D2843F516005AABA5 /* ContentView.swift */,
-				499C361F2843F519005AABA5 /* Assets.xcassets */,
-				499C36212843F519005AABA5 /* Preview Content */,
+				4978FB312849798D000976E5 /* mobileApp.swift */,
+				4978FB332849798D000976E5 /* ContentView.swift */,
+				4978FB352849798E000976E5 /* Assets.xcassets */,
+				4978FB372849798E000976E5 /* Preview Content */,
 			);
-			path = "beam-mobile";
+			path = mobile;
 			sourceTree = "<group>";
 		};
-		499C36212843F519005AABA5 /* Preview Content */ = {
+		4978FB372849798E000976E5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				499C36222843F519005AABA5 /* Preview Assets.xcassets */,
+				4978FB382849798E000976E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4978FB412849798E000976E5 /* mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				4978FB422849798E000976E5 /* mobileTests.swift */,
+			);
+			path = mobileTests;
+			sourceTree = "<group>";
+		};
+		4978FB4B2849798E000976E5 /* mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4978FB4C2849798E000976E5 /* mobileUITests.swift */,
+				4978FB4E2849798E000976E5 /* mobileUITestsLaunchTests.swift */,
+			);
+			path = mobileUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		499C36172843F516005AABA5 /* beam-mobile */ = {
+		4978FB2D2849798D000976E5 /* mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 499C363C2843F519005AABA5 /* Build configuration list for PBXNativeTarget "beam-mobile" */;
+			buildConfigurationList = 4978FB522849798E000976E5 /* Build configuration list for PBXNativeTarget "mobile" */;
 			buildPhases = (
-				499C36142843F516005AABA5 /* Sources */,
-				499C36152843F516005AABA5 /* Frameworks */,
-				499C36162843F516005AABA5 /* Resources */,
+				4978FB2A2849798D000976E5 /* Sources */,
+				4978FB2B2849798D000976E5 /* Frameworks */,
+				4978FB2C2849798D000976E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "beam-mobile";
-			productName = "beam-mobile";
-			productReference = 499C36182843F516005AABA5 /* beam-mobile.app */;
+			name = mobile;
+			productName = mobile;
+			productReference = 4978FB2E2849798D000976E5 /* mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		499C36272843F519005AABA5 /* beam-mobileTests */ = {
+		4978FB3D2849798E000976E5 /* mobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 499C363F2843F519005AABA5 /* Build configuration list for PBXNativeTarget "beam-mobileTests" */;
+			buildConfigurationList = 4978FB552849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileTests" */;
 			buildPhases = (
-				499C36242843F519005AABA5 /* Sources */,
-				499C36252843F519005AABA5 /* Frameworks */,
-				499C36262843F519005AABA5 /* Resources */,
+				4978FB3A2849798E000976E5 /* Sources */,
+				4978FB3B2849798E000976E5 /* Frameworks */,
+				4978FB3C2849798E000976E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				499C362A2843F519005AABA5 /* PBXTargetDependency */,
+				4978FB402849798E000976E5 /* PBXTargetDependency */,
 			);
-			name = "beam-mobileTests";
-			productName = "beam-mobileTests";
-			productReference = 499C36282843F519005AABA5 /* beam-mobileTests.xctest */;
+			name = mobileTests;
+			productName = mobileTests;
+			productReference = 4978FB3E2849798E000976E5 /* mobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		499C36312843F519005AABA5 /* beam-mobileUITests */ = {
+		4978FB472849798E000976E5 /* mobileUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 499C36422843F519005AABA5 /* Build configuration list for PBXNativeTarget "beam-mobileUITests" */;
+			buildConfigurationList = 4978FB582849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileUITests" */;
 			buildPhases = (
-				499C362E2843F519005AABA5 /* Sources */,
-				499C362F2843F519005AABA5 /* Frameworks */,
-				499C36302843F519005AABA5 /* Resources */,
+				4978FB442849798E000976E5 /* Sources */,
+				4978FB452849798E000976E5 /* Frameworks */,
+				4978FB462849798E000976E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				499C36342843F519005AABA5 /* PBXTargetDependency */,
+				4978FB4A2849798E000976E5 /* PBXTargetDependency */,
 			);
-			name = "beam-mobileUITests";
-			productName = "beam-mobileUITests";
-			productReference = 499C36322843F519005AABA5 /* beam-mobileUITests.xctest */;
+			name = mobileUITests;
+			productName = mobileUITests;
+			productReference = 4978FB482849798E000976E5 /* mobileUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		499C36102843F516005AABA5 /* Project object */ = {
+		4978FB262849798D000976E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					499C36172843F516005AABA5 = {
+					4978FB2D2849798D000976E5 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					499C36272843F519005AABA5 = {
+					4978FB3D2849798E000976E5 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 499C36172843F516005AABA5;
+						TestTargetID = 4978FB2D2849798D000976E5;
 					};
-					499C36312843F519005AABA5 = {
+					4978FB472849798E000976E5 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 499C36172843F516005AABA5;
+						TestTargetID = 4978FB2D2849798D000976E5;
 					};
 				};
 			};
-			buildConfigurationList = 499C36132843F516005AABA5 /* Build configuration list for PBXProject "beam-mobile" */;
+			buildConfigurationList = 4978FB292849798D000976E5 /* Build configuration list for PBXProject "mobile" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 499C360F2843F516005AABA5;
-			productRefGroup = 499C36192843F516005AABA5 /* Products */;
+			mainGroup = 4978FB252849798D000976E5;
+			productRefGroup = 4978FB2F2849798D000976E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				499C36172843F516005AABA5 /* beam-mobile */,
-				499C36272843F519005AABA5 /* beam-mobileTests */,
-				499C36312843F519005AABA5 /* beam-mobileUITests */,
+				4978FB2D2849798D000976E5 /* mobile */,
+				4978FB3D2849798E000976E5 /* mobileTests */,
+				4978FB472849798E000976E5 /* mobileUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		499C36162843F516005AABA5 /* Resources */ = {
+		4978FB2C2849798D000976E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499C36232843F519005AABA5 /* Preview Assets.xcassets in Resources */,
-				499C36202843F519005AABA5 /* Assets.xcassets in Resources */,
+				4978FB392849798E000976E5 /* Preview Assets.xcassets in Resources */,
+				4978FB362849798E000976E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		499C36262843F519005AABA5 /* Resources */ = {
+		4978FB3C2849798E000976E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		499C36302843F519005AABA5 /* Resources */ = {
+		4978FB462849798E000976E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -228,46 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		499C36142843F516005AABA5 /* Sources */ = {
+		4978FB2A2849798D000976E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499C361E2843F516005AABA5 /* ContentView.swift in Sources */,
-				499C361C2843F516005AABA5 /* beam_mobileApp.swift in Sources */,
+				4978FB342849798D000976E5 /* ContentView.swift in Sources */,
+				4978FB322849798D000976E5 /* mobileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		499C36242843F519005AABA5 /* Sources */ = {
+		4978FB3A2849798E000976E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4978FB432849798E000976E5 /* mobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		499C362E2843F519005AABA5 /* Sources */ = {
+		4978FB442849798E000976E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4978FB4F2849798E000976E5 /* mobileUITestsLaunchTests.swift in Sources */,
+				4978FB4D2849798E000976E5 /* mobileUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		499C362A2843F519005AABA5 /* PBXTargetDependency */ = {
+		4978FB402849798E000976E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 499C36172843F516005AABA5 /* beam-mobile */;
-			targetProxy = 499C36292843F519005AABA5 /* PBXContainerItemProxy */;
+			target = 4978FB2D2849798D000976E5 /* mobile */;
+			targetProxy = 4978FB3F2849798E000976E5 /* PBXContainerItemProxy */;
 		};
-		499C36342843F519005AABA5 /* PBXTargetDependency */ = {
+		4978FB4A2849798E000976E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 499C36172843F516005AABA5 /* beam-mobile */;
-			targetProxy = 499C36332843F519005AABA5 /* PBXContainerItemProxy */;
+			target = 4978FB2D2849798D000976E5 /* mobile */;
+			targetProxy = 4978FB492849798E000976E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		499C363A2843F519005AABA5 /* Debug */ = {
+		4978FB502849798E000976E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,7 +356,7 @@
 			};
 			name = Debug;
 		};
-		499C363B2843F519005AABA5 /* Release */ = {
+		4978FB512849798E000976E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,14 +411,14 @@
 			};
 			name = Release;
 		};
-		499C363D2843F519005AABA5 /* Debug */ = {
+		4978FB532849798E000976E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"beam-mobile/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mobile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -403,7 +431,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.beam-mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,14 +439,14 @@
 			};
 			name = Debug;
 		};
-		499C363E2843F519005AABA5 /* Release */ = {
+		4978FB542849798E000976E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"beam-mobile/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mobile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.beam-mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -439,7 +467,7 @@
 			};
 			name = Release;
 		};
-		499C36402843F519005AABA5 /* Debug */ = {
+		4978FB562849798E000976E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -449,16 +477,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.beam-mobileTests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobileTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beam-mobile.app/beam-mobile";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile.app/mobile";
 			};
 			name = Debug;
 		};
-		499C36412843F519005AABA5 /* Release */ = {
+		4978FB572849798E000976E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -468,16 +496,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.beam-mobileTests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobileTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beam-mobile.app/beam-mobile";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile.app/mobile";
 			};
 			name = Release;
 		};
-		499C36432843F519005AABA5 /* Debug */ = {
+		4978FB592849798E000976E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -485,16 +513,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.beam-mobileUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobileUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "beam-mobile";
+				TEST_TARGET_NAME = mobile;
 			};
 			name = Debug;
 		};
-		499C36442843F519005AABA5 /* Release */ = {
+		4978FB5A2849798E000976E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,55 +530,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.beam-mobileUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mobileUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "beam-mobile";
+				TEST_TARGET_NAME = mobile;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		499C36132843F516005AABA5 /* Build configuration list for PBXProject "beam-mobile" */ = {
+		4978FB292849798D000976E5 /* Build configuration list for PBXProject "mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499C363A2843F519005AABA5 /* Debug */,
-				499C363B2843F519005AABA5 /* Release */,
+				4978FB502849798E000976E5 /* Debug */,
+				4978FB512849798E000976E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		499C363C2843F519005AABA5 /* Build configuration list for PBXNativeTarget "beam-mobile" */ = {
+		4978FB522849798E000976E5 /* Build configuration list for PBXNativeTarget "mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499C363D2843F519005AABA5 /* Debug */,
-				499C363E2843F519005AABA5 /* Release */,
+				4978FB532849798E000976E5 /* Debug */,
+				4978FB542849798E000976E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		499C363F2843F519005AABA5 /* Build configuration list for PBXNativeTarget "beam-mobileTests" */ = {
+		4978FB552849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499C36402843F519005AABA5 /* Debug */,
-				499C36412843F519005AABA5 /* Release */,
+				4978FB562849798E000976E5 /* Debug */,
+				4978FB572849798E000976E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		499C36422843F519005AABA5 /* Build configuration list for PBXNativeTarget "beam-mobileUITests" */ = {
+		4978FB582849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499C36432843F519005AABA5 /* Debug */,
-				499C36442843F519005AABA5 /* Release */,
+				4978FB592849798E000976E5 /* Debug */,
+				4978FB5A2849798E000976E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 499C36102843F516005AABA5 /* Project object */;
+	rootObject = 4978FB262849798D000976E5 /* Project object */;
 }
