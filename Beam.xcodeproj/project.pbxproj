@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4901F2F22875DE830094ECFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4901F2F12875DE830094ECFD /* Assets.xcassets */; };
 		4978FB322849798D000976E5 /* mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB312849798D000976E5 /* mobileApp.swift */; };
 		4978FB342849798D000976E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB332849798D000976E5 /* ContentView.swift */; };
-		4978FB362849798E000976E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4978FB352849798E000976E5 /* Assets.xcassets */; };
 		4978FB392849798E000976E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4978FB382849798E000976E5 /* Preview Assets.xcassets */; };
 		4978FB432849798E000976E5 /* mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB422849798E000976E5 /* mobileTests.swift */; };
 		4978FB4D2849798E000976E5 /* mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978FB4C2849798E000976E5 /* mobileUITests.swift */; };
@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4978FB2E2849798D000976E5 /* mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4901F2F12875DE830094ECFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		4978FB2E2849798D000976E5 /* Beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4978FB312849798D000976E5 /* mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileApp.swift; sourceTree = "<group>"; };
 		4978FB332849798D000976E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4978FB352849798E000976E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4978FB382849798E000976E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4978FB3E2849798E000976E5 /* mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978FB3E2849798E000976E5 /* BeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4978FB422849798E000976E5 /* mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileTests.swift; sourceTree = "<group>"; };
-		4978FB482849798E000976E5 /* mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4978FB482849798E000976E5 /* BeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4978FB4C2849798E000976E5 /* mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileUITests.swift; sourceTree = "<group>"; };
 		4978FB4E2849798E000976E5 /* mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		4978FB2F2849798D000976E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4978FB2E2849798D000976E5 /* mobile.app */,
-				4978FB3E2849798E000976E5 /* mobileTests.xctest */,
-				4978FB482849798E000976E5 /* mobileUITests.xctest */,
+				4978FB2E2849798D000976E5 /* Beam.app */,
+				4978FB3E2849798E000976E5 /* BeamTests.xctest */,
+				4978FB482849798E000976E5 /* BeamUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 			children = (
 				4978FB312849798D000976E5 /* mobileApp.swift */,
 				4978FB332849798D000976E5 /* ContentView.swift */,
-				4978FB352849798E000976E5 /* Assets.xcassets */,
+				4901F2F12875DE830094ECFD /* Assets.xcassets */,
 				4978FB372849798E000976E5 /* Preview Content */,
 			);
 			path = mobile;
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4978FB2D2849798D000976E5 /* mobile */ = {
+		4978FB2D2849798D000976E5 /* Beam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4978FB522849798E000976E5 /* Build configuration list for PBXNativeTarget "mobile" */;
+			buildConfigurationList = 4978FB522849798E000976E5 /* Build configuration list for PBXNativeTarget "Beam" */;
 			buildPhases = (
 				4978FB2A2849798D000976E5 /* Sources */,
 				4978FB2B2849798D000976E5 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = mobile;
+			name = Beam;
 			productName = mobile;
-			productReference = 4978FB2E2849798D000976E5 /* mobile.app */;
+			productReference = 4978FB2E2849798D000976E5 /* Beam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4978FB3D2849798E000976E5 /* mobileTests */ = {
+		4978FB3D2849798E000976E5 /* BeamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4978FB552849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileTests" */;
+			buildConfigurationList = 4978FB552849798E000976E5 /* Build configuration list for PBXNativeTarget "BeamTests" */;
 			buildPhases = (
 				4978FB3A2849798E000976E5 /* Sources */,
 				4978FB3B2849798E000976E5 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				4978FB402849798E000976E5 /* PBXTargetDependency */,
 			);
-			name = mobileTests;
+			name = BeamTests;
 			productName = mobileTests;
-			productReference = 4978FB3E2849798E000976E5 /* mobileTests.xctest */;
+			productReference = 4978FB3E2849798E000976E5 /* BeamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4978FB472849798E000976E5 /* mobileUITests */ = {
+		4978FB472849798E000976E5 /* BeamUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4978FB582849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileUITests" */;
+			buildConfigurationList = 4978FB582849798E000976E5 /* Build configuration list for PBXNativeTarget "BeamUITests" */;
 			buildPhases = (
 				4978FB442849798E000976E5 /* Sources */,
 				4978FB452849798E000976E5 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				4978FB4A2849798E000976E5 /* PBXTargetDependency */,
 			);
-			name = mobileUITests;
+			name = BeamUITests;
 			productName = mobileUITests;
-			productReference = 4978FB482849798E000976E5 /* mobileUITests.xctest */;
+			productReference = 4978FB482849798E000976E5 /* BeamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4978FB292849798D000976E5 /* Build configuration list for PBXProject "mobile" */;
+			buildConfigurationList = 4978FB292849798D000976E5 /* Build configuration list for PBXProject "Beam" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4978FB2D2849798D000976E5 /* mobile */,
-				4978FB3D2849798E000976E5 /* mobileTests */,
-				4978FB472849798E000976E5 /* mobileUITests */,
+				4978FB2D2849798D000976E5 /* Beam */,
+				4978FB3D2849798E000976E5 /* BeamTests */,
+				4978FB472849798E000976E5 /* BeamUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4978FB392849798E000976E5 /* Preview Assets.xcassets in Resources */,
-				4978FB362849798E000976E5 /* Assets.xcassets in Resources */,
+				4901F2F22875DE830094ECFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		4978FB402849798E000976E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4978FB2D2849798D000976E5 /* mobile */;
+			target = 4978FB2D2849798D000976E5 /* Beam */;
 			targetProxy = 4978FB3F2849798E000976E5 /* PBXContainerItemProxy */;
 		};
 		4978FB4A2849798E000976E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4978FB2D2849798D000976E5 /* mobile */;
+			target = 4978FB2D2849798D000976E5 /* Beam */;
 			targetProxy = 4978FB492849798E000976E5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = PC2S2BC7B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = PC2S2BC7B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -476,6 +478,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC2S2BC7B9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -484,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile.app/mobile";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beam.app/Beam";
 			};
 			name = Debug;
 		};
@@ -495,6 +498,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC2S2BC7B9;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -503,7 +507,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobile.app/mobile";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beam.app/Beam";
 			};
 			name = Release;
 		};
@@ -511,8 +515,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC2S2BC7B9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.mobileUITests;
@@ -528,8 +534,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC2S2BC7B9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.mobileUITests;
@@ -544,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4978FB292849798D000976E5 /* Build configuration list for PBXProject "mobile" */ = {
+		4978FB292849798D000976E5 /* Build configuration list for PBXProject "Beam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4978FB502849798E000976E5 /* Debug */,
@@ -553,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4978FB522849798E000976E5 /* Build configuration list for PBXNativeTarget "mobile" */ = {
+		4978FB522849798E000976E5 /* Build configuration list for PBXNativeTarget "Beam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4978FB532849798E000976E5 /* Debug */,
@@ -562,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4978FB552849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileTests" */ = {
+		4978FB552849798E000976E5 /* Build configuration list for PBXNativeTarget "BeamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4978FB562849798E000976E5 /* Debug */,
@@ -571,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4978FB582849798E000976E5 /* Build configuration list for PBXNativeTarget "mobileUITests" */ = {
+		4978FB582849798E000976E5 /* Build configuration list for PBXNativeTarget "BeamUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4978FB592849798E000976E5 /* Debug */,
